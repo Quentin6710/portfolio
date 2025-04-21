@@ -30,7 +30,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -53,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-vertical-timeline-component": "^3.3.6",
     "gh-pages": "^4.0.0"
   }
 }
