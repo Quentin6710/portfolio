@@ -2,8 +2,9 @@
   "name": "react-portfolio-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Quentin6710.github.io/portfolio",
+  "homepage": "https://majdaquentin.fr",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
@@ -12,6 +13,8 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/icons-material": "^5.15.19",
     "@mui/material": "^5.15.19",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/highlight": "^3.12.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -19,8 +22,14 @@
     "@types/node": "^16.18.98",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "bootstrap": "^5.3.5",
+    "pdfjs-dist": "^3.11.174",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.9",
     "react-dom": "^18.3.1",
+    "react-pdf": "^9.2.1",
+    "react-pdf-highlighter": "^8.0.0-rc.0",
+    "react-router-dom": "^7.5.1",
     "react-scripts": "5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
     "sass": "^1.77.4",
@@ -52,6 +61,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
     "@types/react-vertical-timeline-component": "^3.3.6",
     "gh-pages": "^4.0.0"
   }

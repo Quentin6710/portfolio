@@ -19,7 +19,7 @@
   }
 
   fieldset {
-    background-color: white;
+    background-color: transparent !important;
   }
 }
 
@@ -45,4 +45,21 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+
+  .MuiInputBase-root {
+    background-color: white !important; // ✅ fond blanc pour les TextBox
+
+    .MuiInputBase-input {
+      color: #000 !important; // ✅ texte noir
+    }
+  }
+}
+
+// Ajouté aussi pour les inputs du haut (nom, email)
+.MuiFormControl-root .MuiInputBase-root {
+  background-color: white !important;
+
+  .MuiInputBase-input {
+    color: #000 !important;
+  }
 }
