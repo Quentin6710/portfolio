@@ -4,12 +4,13 @@
     <meta charset="utf-8" />
     <title>Page Not Found</title>
     <script type="text/javascript">
-      // Redirige vers index.html en conservant le chemin
+      // Stocke l'URL demandée
       sessionStorage.redirect = location.href;
-      const l = window.location;
-      const repo = '/portfolio'; // Remplace par le nom de ton dépôt si nécessaire
-      l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + repo);
+      // Après chargement, retourne simplement à l'URL originale
+      window.location.replace(sessionStorage.redirect || '/');
     </script>
   </head>
-  <body></body>
+  <body>
+    <h1>Redirection…</h1>
+  </body>
 </html>
